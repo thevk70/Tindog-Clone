@@ -1,0 +1,181 @@
+body{
+    font-family: "Montserrat-regular";
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h3 {
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#title{
+   background-color: #ff4c68;
+   color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;  /*top left-right bottom */
+}
+
+/* Navigation-bar */
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Thin";
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 21.5%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-image{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.card-body{
+    margin: 3%;
+}
+
+
+/* call of Action */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+#cta h3{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding: 50px 5% 2%;
+    background-color: #fff;
+}
+
+.social{
+    padding: 20px 10px;
+}
+.spanSpace{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 0 20px 0 20px;
+}
+.fa-w-9{
+    height: 40px;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    
+}
